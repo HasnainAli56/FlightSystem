@@ -16,7 +16,7 @@
       "dest": "external_inventory_app.py"
     },
     {
-      "src": "/web/(.*)",
+      "src": "/web(.*)",
       "dest": "external_inventory_app.py"
     },
     {
