@@ -434,6 +434,8 @@ HTML_TEMPLATE = """
 </html>
 """
 
+@app.route("/web")
+@app.route("/web/")
 @app.route("/")
 def web_index():
     tickets = load_tickets()
